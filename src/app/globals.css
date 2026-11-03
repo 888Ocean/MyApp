@@ -741,17 +741,17 @@ figcaption {
 @keyframes pass {
   0% {
     opacity: 0;
-    transform: translateX(78vw);
+    transform: translateX(82vw);
   }
-  14% {
-    opacity: 0.14;
+  16% {
+    opacity: 0.28;
   }
-  72% {
-    opacity: 0.1;
+  68% {
+    opacity: 0.18;
   }
   100% {
     opacity: 0;
-    transform: translateX(-120%);
+    transform: translateX(-130%);
   }
 }
 

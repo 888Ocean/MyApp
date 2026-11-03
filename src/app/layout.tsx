@@ -27,6 +27,9 @@ export const metadata: Metadata = {
   title: "潮汐档案 / Tidal Archive",
   description:
     "Ocean 的个人站原型。向下滚动即下潜：海面、人像、应用、档案。内容均为示意。",
+  other: {
+    google: "notranslate",
+  },
 };
 
 export const viewport: Viewport = {
@@ -38,6 +41,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="zh-Hans"
+      translate="no"
       className={`${sans.variable} ${serif.variable} ${sc.variable} h-full antialiased`}
     >
       <body className="min-h-full">{children}</body>
