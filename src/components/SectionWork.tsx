@@ -1,30 +1,33 @@
-import { buildLede, products } from "@/lib/archive";
+import { IllustrativeMark } from "@/components/IllustrativeMark";
+import { OnceNode } from "@/components/OnceNode";
+import { products, workLede } from "@/lib/archive";
 
-export function SectionBuild() {
+export function SectionWork() {
   return (
-    <section id="build" className="layer" aria-labelledby="build-title">
+    <section id="work" className="layer" aria-labelledby="work-title">
       <div className="layer-inner">
         <header className="layer-head">
-          <p className="meters">−28 m</p>
-          <h2 id="build-title">
-            <span className="zh">应用</span>
+          <p className="meters">−6 m</p>
+          <h2 id="work-title">
+            <span className="zh">作品</span>
             <span className="en" lang="en">
-              Build
+              Work
             </span>
           </h2>
-          <p className="lede">{buildLede}</p>
+          <p className="lede">{workLede}</p>
         </header>
         <div className="products">
           {products.map((product) => (
             <article key={product.index} className="product">
+              <OnceNode tone="project" />
               <p className="product-kind">
                 {product.index}
                 <span aria-hidden="true"> · </span>
                 {product.kind}
+                <IllustrativeMark />
               </p>
               <h3>{product.name}</h3>
               <p className="summary">{product.summary}</p>
-              <p className="status">{product.status}</p>
             </article>
           ))}
         </div>

@@ -26,7 +26,7 @@ const sc = Noto_Serif_SC({
 export const metadata: Metadata = {
   title: "潮汐档案 / Tidal Archive",
   description:
-    "Ocean 的个人站原型。向下滚动即下潜：海面、人像、应用、档案。内容均为示意。",
+    "Ocean 的个人站原型。向下滚动即下潜：海面、作品、照片、关于。内容均为示意。",
   other: {
     google: "notranslate",
   },

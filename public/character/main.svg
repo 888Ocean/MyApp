@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 340" fill="none">
+  <!-- Placeholder neutral figure. Replace this file when real character art arrives. -->
+  <ellipse cx="118" cy="128" rx="72" ry="80" fill="#8FBCB0" opacity="0.55"/>
+  <path d="M48 300C74 228 106 206 140 206C176 206 210 232 236 300" stroke="#1A2B2E" stroke-width="1.45"/>
+  <path d="M108 300V232" stroke="#1A2B2E" stroke-width="0.7" opacity="0.4"/>
+  <path d="M174 300V236" stroke="#1A2B2E" stroke-width="0.7" opacity="0.4"/>
+  <path d="M122 206V168" stroke="#1A2B2E" stroke-width="1.05"/>
+  <path d="M158 206V170" stroke="#1A2B2E" stroke-width="1.05"/>
+  <ellipse cx="140" cy="122" rx="42" ry="50" fill="#F7F5F0" stroke="#1A2B2E" stroke-width="1.4"/>
+  <path d="M140 84V164" stroke="#1A2B2E" stroke-width="0.6" opacity="0.35"/>
+  <path d="M110 196Q140 184 174 198" stroke="#E07A5F" stroke-width="1.55"/>
+</svg>

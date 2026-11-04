@@ -1,8 +1,8 @@
 import { DepthRuler } from "@/components/DepthRuler";
-import { SectionArchive } from "@/components/SectionArchive";
-import { SectionBuild } from "@/components/SectionBuild";
-import { SectionPortrait } from "@/components/SectionPortrait";
+import { SectionAbout } from "@/components/SectionAbout";
+import { SectionPhotos } from "@/components/SectionPhotos";
 import { SectionSurface } from "@/components/SectionSurface";
+import { SectionWork } from "@/components/SectionWork";
 import { TideDivider } from "@/components/TideDivider";
 
 export default function Home() {
@@ -12,11 +12,11 @@ export default function Home() {
       <main>
         <SectionSurface />
         <TideDivider />
-        <SectionPortrait />
+        <SectionWork />
         <TideDivider />
-        <SectionBuild />
+        <SectionPhotos />
         <TideDivider />
-        <SectionArchive />
+        <SectionAbout />
       </main>
     </>
   );
